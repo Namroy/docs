@@ -3,7 +3,7 @@ this readme will be changed by :YUI
 
 1)configuraremos nuestros datos:
 
-git config --global user.name "carlos" 
+git config --global user.name "Yorman" 
 
 git config --global user.email "me@carlosandresviteri.com"
 
