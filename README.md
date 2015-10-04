@@ -1,6 +1,17 @@
 this readme will be canged be :YFUI
 
 
+1)configuraremos nuestros datos:
+
+git config --global user.name "carlos"
+git config --global user.email "me@carlosandresviteri.com"
+
+2) obtencion de la clave ssh mediante el comando:
+
+comando: ssh-keygen
+
+la consola responde de esta manera:
+
 nter file in which to save the key (/home/carlos/.ssh/id_rsa):
 
 nos pedirá una contraseña -passphrase- la contraseña es opcional, para saltarla le damos doble enter.
