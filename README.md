@@ -13,7 +13,7 @@ comando: ssh-keygen
 
 la consola responde de esta manera:
 
-nter file in which to save the key (/home/carlos/.ssh/id_rsa):
+nter file in which to save the key (/home/Namroy/.ssh/id_rsa):
 
 nos pedirá una contraseña -passphrase- la contraseña es opcional, para saltarla le damos doble enter.
 
@@ -23,6 +23,7 @@ Enter passphrase (empty for no passphrase):
 Enter same passphrase again: 
 
 Para leer la clave ssh:
+
 codigo:cat ~/.ssh/id_rsa.pub
 
 Y la consola nos responderá algo como esto:
