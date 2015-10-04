@@ -38,10 +38,11 @@ y listo ya hay conexion entre github y tu pc
 
 5) subir archivos a tu githob:
 
-hay que hacer tres cosas primero >
- 
-comando: git add <name.file>
+hay que hacer tres cosas primero > 
+comando: git add <name.file> 
+
 comando:git commit -m "siempre comentar el commit"
+
 comando:git push -u origin master
 
 
