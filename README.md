@@ -1,4 +1,4 @@
-this readme will be canged be :YFUI
+this readme will be changed by :YUI
 
 
 1)configuraremos nuestros datos:
