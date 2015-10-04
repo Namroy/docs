@@ -5,7 +5,7 @@ this readme will be changed by :YUI
 
 git config --global user.name "Yorman" 
 
-git config --global user.email "me@carlosandresviteri.com"
+git config --global user.email "Your@MYEmail.com"
 
 2) obtencion de la clave ssh mediante el comando:
 
