@@ -1,4 +1,4 @@
-git clone -> url ......
+
 
 --Iniciamos git en nuestro directorio y configuramos los datos.
   <p><code>mydirectory$ git init </code></p>
