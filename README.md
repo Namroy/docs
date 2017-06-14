@@ -1,13 +1,15 @@
 
-<li>configuraremos nuestros datos:</li>
-<p><code>git config --global user.name "Yorman"</code></p>
-<p><code>git config --global user.email "Your@MYEmail.com"</code></p><br>
 
-<li>Obtencion de la clave ssh mediante el comando:</li>
-
-comando:ssh-keygen
+--Iniciamos git en nuestro directorio y configuramos los datos.
+  <p><code>mydirectory$ git init </code></p>
+  <p><code>$ git config --global user.name "YourName"</code></p>
+  <p><code>$ git config --global user.email "Your@MYEmail.com"</code></p><br>
+  
+<li>Vincular Git con Github</li>
+  <p><code>$ ssh-keygen -t rsa -b 4096 -C "yourmailgithub@mail.com"</code></p>
+  
 La consola responde de esta manera:
-nter file in which to save the key ($/home/Namroy/.ssh/id_rsa):
+  nter file in which to save the key ($/home/Namroy/.ssh/id_rsa):
 
 nos pedirá una contraseña <b>-passphrase-</b> la contraseña es opcional,
 para saltarla le damos doble enter, pero no es recomendable en entornos de produccion reales.
@@ -27,10 +29,9 @@ Código :ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMpPqnv9XBAnNAU60o+zxoXxrl79LBaqp
 --Copiamos el contenido y lo pegaremos en SSH Keys en GitHub:
   para esto vamos a settings->SSH Keys y pegamos la llave ssh y le damos un titulo  y guardamos listo por aqui.
   
-
 --validamos nuestra keys-ssh con este comando:
 
-codigo: ssh -T git@github.com 
+  codigo: ssh -T git@github.com 
 
 y listo ya hay conexion entre github y tu pc
 
