@@ -1,9 +1,7 @@
 
 <li>configuraremos nuestros datos:</li>
-<p><code>git config --global user.name "Yorman"</code></p><br>
-<br>
+<p><code>git config --global user.name "Yorman"</code></p>
 <p><code>git config --global user.email "Your@MYEmail.com"</code></p><br>
-
 
 <li>Obtencion de la clave ssh mediante el comando:</li>
 
