@@ -1,4 +1,4 @@
-git clone -> url
+git clone -> url ......
 
 --Iniciamos git en nuestro directorio y configuramos los datos.
   <p><code>mydirectory$ git init </code></p>
@@ -70,5 +70,5 @@ Nota: un branch no se puedo borrar a menos que se alla fucionado antes.
 
 <p><code>$ git commit -am "message" --amend</code></p>
 
-
+para hacer un una copia usamos git clone url
 
