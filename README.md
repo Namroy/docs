@@ -36,7 +36,7 @@ y listo ya hay conexion entre github y tu pc
 
 5) subir archivos a tu githob:
 
-*entramos al direcctorio del proyecto y aplicamos el comando<b>init</b> para activar git en ese directorio.
+*entramos al direcctorio del proyecto y aplicamos el comando<b>init</b> para activar git en ese directorio.<br>
 
 <code><p>$ git init</p></code>
 
@@ -48,16 +48,20 @@ y listo ya hay conexion entre github y tu pc
 
 <code><p>$ git push -u origin master</p></code>
 
-============================================
+============================================<br>
 -Como crear una branch
 <code><p>$ git checkout -b namebranch</p></code>
+
 -Como cambiar entre branches
 <code><p>$ git checkout namebranch</p></code>
+
 --Como fucionamos branches
 <code><p>$ git merge namebranch</p></code>
+
 Nota: un branch no se puedo borrar a menos que se alla fucionado antes. 
 --Como se borra un branch
 <code><p>$ git branch -d namebranch</p></code>
+
 --Como cambiar el nombre del ultimo commit 
 <code><p>$ git commit -am "message" --amend</p></code>
 
