@@ -38,10 +38,14 @@ y listo ya hay conexion entre github y tu pc
 
 *entramos al direcctorio del proyecto y aplicamos el comando<b>init</b> para activar git en ese directorio.
 
-comando: git add -A OR <name.file> 
+$ git init
 
-comando:git commit -m "siempre comentar el commit"
+$ git remote add origin [HTTPS or SSH]
 
-comando:git push -u origin master
+$ git add -A OR <name.file> 
+
+$ git commit -m "siempre comentar el commit"
+
+$ git push -u origin master
 
 
