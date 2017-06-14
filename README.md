@@ -1,8 +1,6 @@
---this readme will be changed by :YUI
-
 
 <li>configuraremos nuestros datos:</li>
-<p><code>git config --global user.name "Yorman"
+<p><code>git config --global user.name "Yorman"<br>
 git config --global user.email "Your@MYEmail.com"
 </code></p><br>
 
