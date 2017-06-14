@@ -38,36 +38,36 @@ y listo ya hay conexion entre github y tu pc
 
 *entramos al direcctorio del proyecto y aplicamos el comando<b>init</b> para activar git en ese directorio.<br>
 
-<code><p>$ git init</p></code>
+<p><code>$ git init</code></p>
 
-<code><p>$ git remote add origin [HTTPS or SSH]</p></code>
+<p><code>$ git remote add origin [HTTPS or SSH]</code></p>
 
-<code><p>$ git add -A OR <name.file> </p></code>
+<p><code>$ git add -A OR <name.file> </p></code>
 
-<code><p>$ git commit -m "siempre comentar el commit"</p></code>
+<p><code>$ git commit -m "siempre comentar el commit"</code></p>
 
-<code><p>$ git push -u origin master</p></code>
+<p><code>$ git push -u origin master</code></p>
 
 ============================================<br>
 -Como crear una branch
-<code><p>$ git checkout -b namebranch</p></code>
+<p><code>$ git checkout -b namebranch</code></p>
 
 -Como cambiar entre branches
 
-<code><p>$ git checkout namebranch</p></code>
+<p><code>$ git checkout namebranch</code></p>
 
 --Como fucionamos branches
 
-<code><p>$ git merge namebranch</p></code>
+<p><code>$ git merge namebranch</code></p>
 
 Nota: un branch no se puedo borrar a menos que se alla fucionado antes. 
 --Como se borra un branch
 
-<code><p>$ git branch -d namebranch</p></code>
+<p><code>$ git branch -d namebranch</code></p>
 
 --Como cambiar el nombre del ultimo commit 
 
-<code><p>$ git commit -am "message" --amend</p></code>
+<p><code>$ git commit -am "message" --amend</code></p>
 
 
 
