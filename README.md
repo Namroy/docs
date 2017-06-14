@@ -1,23 +1,19 @@
-this readme will be changed by :YUI
+--this readme will be changed by :YUI
 
 
-1)configuraremos nuestros datos:
-
-git config --global user.name "Yorman" 
-
+<li>1) configuraremos nuestros datos:</li>
+<p><code>git config --global user.name "Yorman"</code> </p><br>
 git config --global user.email "Your@MYEmail.com"
+
 
 2) obtencion de la clave ssh mediante el comando:
 
 comando: ssh-keygen
-
 la consola responde de esta manera:
-
 nter file in which to save the key (/home/Namroy/.ssh/id_rsa):
 
 nos pedirá una contraseña -passphrase- la contraseña es opcional, para saltarla le damos doble enter.
-
---codigo de respuesta automatico de shell (ejemplo):
+codigo de respuesta automatico de shell (ejemplo):
  
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again: 
